@@ -1,4 +1,4 @@
-eMoTiOnAl dAmAgE Part 2? The last year I make code for this fest :sob:
+eMoTiOnAl dAmAgE Part 2? The last year I make code for Equinox :sob:
 
 Readme.md. Just download the files and run main.py, that launches a flask server. feel free to use this code no credits required
 
