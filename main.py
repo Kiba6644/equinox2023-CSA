@@ -3,6 +3,11 @@ from flask_socketio import SocketIO
 import random
 import requests
 
+#You snoopy lil human, hope you enjoyed the event!
+#im aware i could have used one navbar.html instead of copy pasting that already-a mess code into every file
+#if youre wondering why i left the front end such a mess, we live by "if it works, dont touch it"
+#jk i tried but the fest is tomorrow and theres so much stuff left to do
+
 app = Flask(__name__)
 socketio = SocketIO(app)
 links = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1NKFfI96wsI9WiY04whEG-cj0f0Li4dcvPg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdVcpZH0706teE-1pKHzQdzmxoL7Pk2vHVqA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_6nYiPh4ErkbxEZPXnNvX6CzWUOng5i8qqw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9DO6v-lX4ktUrIXRN9gPJzvNkxmhn72HPwqNmyQNbGslDDg4CK0m8IThHMZI4Y9djiLk&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJs_gGKHGAjep2l4PY2GJSsn8DcncDPQD5w&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTunugGSSL_AGJYuZdbOer_UexBSInFdYrcYA&usqp=CAU"]
