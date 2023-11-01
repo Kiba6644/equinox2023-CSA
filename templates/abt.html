@@ -1,0 +1,121 @@
+<!-- Or Maybe it was just too cringe to include 🤭-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TechnoFuse-2023</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+      }
+
+      .home-header {
+        margin-top: 0px; 
+      }
+
+      .home-title,
+      .home-description {
+        margin-bottom: 0px;
+      }
+      .home-navbar {
+        border-bottom: 1px solid #ccc;
+        padding: 1px 2px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}" />
+    <div>
+      <link href="{{ url_for('static',filename='styles/index.css') }}" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-navbar">
+          <header data-thq="thq-navbar" class="home-navbar-interactive">
+            <div class="home-branding">
+              <img alt="image" src="{{ url_for('static',filename='logo.svg') }}" class="home-logo" />
+              <span class="home-company">
+                <a href="/">ComputerScience Association</a>
+                <br />
+              </span>
+            </div>
+            <div class="home-items">
+              <div class="home-links">
+                <span class="nav-link">
+                  <a href="/">Home</a>
+                  <br />
+                </span>
+                <a href="/intro" class="nav-link">Introduction</a>
+                <a href="/chat" class="nav-link">Chat</a>
+                <a href="/about_us" class="nav-link">About-us</a>
+              </div>
+              <button class="start-button button home-button">
+                <a href="/score" class="home-text08">Score-<br>Breakdown</a>
+              </button>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="home-nav"
+              >
+                <div class="home-top">
+                  <div class="home-branding1">
+                    <img alt="image" src="public/logo.svg" class="home-logo1" />
+                    <span class="home-company1">SPYRL</span>
+                  </div>
+                  <div data-thq="thq-close-menu" class="home-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+        <header class="home-hero">
+            <div class="home-header">
+                <span class="home-description">Gave up halfway cuz its too hard, pretend like its something cool 🤭</span>
+              <div class="home-container">
+                <img
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  alt="image"
+                  class="home-image1"
+                />
+                <textarea placeholder="placeholder" class="textarea"></textarea>
+                <div class="home-description">
+                  </div>
+              </div>
+          </header>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
